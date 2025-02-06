@@ -55,10 +55,12 @@ A web-based application built with Streamlit to analyze stock data, provide insi
 ## Screenshots
 
 ### Home Page
-![Home Page](path/to/homepage-screenshot.png)
+<img width="1710" alt="image" src="https://github.com/user-attachments/assets/2913d9ea-9a2d-4354-9c11-2fcba4b68fc6" />
+
 
 ### Stock Analysis
-![Stock Analysis](path/to/stock-analysis-screenshot.png)
+<img width="1710" alt="image" src="https://github.com/user-attachments/assets/33da7114-2e3b-4a06-9325-8b1425900613" />
+
 
 ## Dependencies
 
@@ -73,9 +75,7 @@ A web-based application built with Streamlit to analyze stock data, provide insi
   - `phi.tools.duckduckgo`
   - `phi.tools.googlesearch`
 
-## License
 
-This project is licensed under the [MIT License](LICENSE).
 
 ## Acknowledgments
 
