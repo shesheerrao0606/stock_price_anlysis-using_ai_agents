@@ -1,7 +1,7 @@
 Here's a `README.md` file for the provided code:
 
 
-# Stocks Analysis AI Agents
+# Stocks Price Analysis using Machine Learning and AI Agents
 
 A web-based application built with Streamlit to analyze stock data, provide insights, and display financial metrics using AI agents. This app integrates financial data, web search tools, and AI models to deliver a comprehensive stock market analysis.
 
