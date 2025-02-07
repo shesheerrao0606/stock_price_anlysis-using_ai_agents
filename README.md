@@ -83,7 +83,3 @@ A web-based application built with Streamlit to analyze stock data, provide insi
 - Stock data provided by [Yahoo Finance](https://finance.yahoo.com/).
 - Built with [Streamlit](https://streamlit.io/).
 ```
-
-### Notes
-- Replace `path/to/homepage-screenshot.png` and `path/to/stock-analysis-screenshot.png` with actual paths to screenshots of your app.
-- Update the repository URL and license details as needed.
