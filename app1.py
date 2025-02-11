@@ -82,8 +82,9 @@ def create_price_chart(hist_data, symbol):
 
 def main():
     st.title("Stocks Price Analysis using Machine Learning and AI Agents")
-    
-    stock_input = st.text_input("Enter Company Name", help="e.g., APPLE, TCS")
+    st.markdown("**Note:** Enter the stock symbol (e.g., NVDA for NVIDIA). To analyze a new stock, please refresh the page.", unsafe_allow_html=True)
+
+    stock_input = st.text_input("", help="e.g., APPLE, TCS")
     
     if st.button("Analyze", use_container_width=True):
         if not stock_input:
@@ -123,15 +124,6 @@ def main():
                 st.plotly_chart(create_price_chart(hist, symbol), use_container_width=True)
                 st.markdown("</div>", unsafe_allow_html=True)
                 
-                # Display recent news articles
-                if news:
-                    st.markdown("### Recent News", unsafe_allow_html=True)
-                    for article in news[:3]:
-                        title = article.get('title', 'No title available')
-                        link = article.get('link', '#')
-                        summary = article.get('summary', 'No summary available')
-                        
-                        st.markdown(f"- **[{title}]({link})**: {summary}")
                 
                 # Display company overview
                 if 'longBusinessSummary' in info:
